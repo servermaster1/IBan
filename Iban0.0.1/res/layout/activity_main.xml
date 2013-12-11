@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttona"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Informationen zum IBan"
+        android:layout_weight="0"
+         />
+
+    <Button
+        android:id="@+id/buttonb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kontrollziffer Berechnen" />
+
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kontrollziffer Prüfen" />
+
+    <Button
+        android:id="@+id/buttond"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="IBan Auslesen" />
+
+    <Button
+        android:id="@+id/buttone"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Impressum" />
+
+</LinearLayout>

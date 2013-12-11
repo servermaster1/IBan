@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1" >
+
+    <TextView
+        android:text="Michael Uebl" />
+    <TextView
+        android:text="Adresse:ST.Paulgasse8/4/27" />
+    <TextView
+        android:text="PLZ:3500 Krems" />
+    <TextView
+        android:text="E-Mail:mike.uebl1@gmail.com" />
+    <TextView
+        android:text="Es wird nicht für die Korrektheit der Werte Garantiert" />
+
+</GridLayout>
