@@ -2,6 +2,7 @@ package mike.uebl.iban;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.R;
 
 public class Impressum extends Activity{
 
