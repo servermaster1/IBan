@@ -19,7 +19,6 @@ public class Main extends Activity {
 		a = (Button) findViewById(R.id.buttona);
 		b = (Button) findViewById(R.id.buttonb);
 		c = (Button) findViewById(R.id.buttonc);
-		d = (Button) findViewById(R.id.buttond);
 		e = (Button) findViewById(R.id.buttone);
 		
 		c.setOnClickListener(

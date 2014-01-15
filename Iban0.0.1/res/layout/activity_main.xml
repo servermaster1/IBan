@@ -28,13 +28,6 @@
         android:text="Kontrollziffer Prüfen" />
 
     <Button
-        android:id="@+id/buttond"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="IBan Auslesen" />
-
-    <Button
         android:id="@+id/buttone"
         android:layout_width="200dp"
         android:layout_height="50dp"
