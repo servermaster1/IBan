@@ -5,14 +5,7 @@
     android:columnCount="1" >
 
     <TextView
-        android:text="Michael Uebl" />
-    <TextView
-        android:text="Adresse:ST.Paulgasse8/4/27" />
-    <TextView
-        android:text="PLZ:3500 Krems" />
-    <TextView
-        android:text="E-Mail:mike.uebl1@gmail.com" />
-    <TextView
-        android:text="Es wird nicht für die Korrektheit der Werte Garantiert" />
+        android:text="Danke dass du dich für meine App interessierst.\nDarf ich mich vorstellen, mein Name ist Michael Übl, ich bin Schüler der HTL in ST.Pölten und darf mich den Entwickler dieser App nennen. Diese App steht unter der GPL, das bedeutet für dich erstens die App Gratis ist, und du dir den Source-code frei von meiner Github Seite (https://github.com/servermaster1) herunterladen und nutzen darfst mit der einzigen Ausnahme das du dann dein Programm auch unter die GPL stellen must. Auch möchte ich trotz mehrerer Tests erwähnen das ich nicht für die Richtigkeit der werte garantieren kann. Du kannst mich wenn du willst unter mike.uebl1@gmail.com kontaktieren und über positive Bewertungen freue ich mich natürlich auch.\nMit freundlichen Grüßen, meine Wenigkeit Michael Übl" />
+
 
 </GridLayout>

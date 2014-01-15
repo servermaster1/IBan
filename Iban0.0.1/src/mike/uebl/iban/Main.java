@@ -1,26 +1,34 @@
 package mike.uebl.iban;
 //c t r l shift o
+
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Main extends Activity {
 	
-	Button a,b,c,d,e;
+	ImageButton a,b,c,d;
 	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		a = (Button) findViewById(R.id.buttona);
-		b = (Button) findViewById(R.id.buttonb);
-		c = (Button) findViewById(R.id.buttonc);
-		e = (Button) findViewById(R.id.buttone);
+		a = (ImageButton) findViewById(R.id.buttona);
+		b = (ImageButton) findViewById(R.id.buttonb);
+		c = (ImageButton) findViewById(R.id.buttonc);
+		d = (ImageButton) findViewById(R.id.buttond);
 		
+	new Color();
+		//	a.getBackground().setColorFilter(new LightingColorFilter(0x79daf2,0));
+		a.setBackgroundColor(Color.rgb(121, 218, 242));
+		b.setBackgroundColor(Color.rgb(121, 218, 242));
+		c.setBackgroundColor(Color.rgb(121, 218, 242));
+		d.setBackgroundColor(Color.rgb(121, 218, 242));
 		c.setOnClickListener(
 		new View.OnClickListener() {
 			@Override
@@ -29,7 +37,7 @@ public class Main extends Activity {
 				startActivity(ourInten);
 			}
 		});
-		e.setOnClickListener(
+		d.setOnClickListener(
 		new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -37,6 +45,7 @@ public class Main extends Activity {
 				startActivity(ourInten);
 			}
 		});
+		
 		
 	}
 

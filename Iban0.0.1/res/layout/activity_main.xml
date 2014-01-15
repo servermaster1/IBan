@@ -1,37 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/buttona"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Informationen zum IBan"
-        android:layout_weight="0"
-         />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight=".50" >
 
-    <Button
-        android:id="@+id/buttonb"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Kontrollziffer Berechnen" />
+          <ImageButton
+              android:id="@+id/buttonb"
+              android:layout_width="100dp"
+              android:layout_height="fill_parent"
+              android:layout_weight=".50"
+              android:scaleType="fitCenter"
+              android:src="@drawable/fragezeichen" />
 
-    <Button
-        android:id="@+id/buttonc"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Kontrollziffer Prüfen" />
+          <ImageButton
+              android:id="@+id/buttona"
+              android:layout_width="100dp"
+              
+              android:layout_height="fill_parent"
+              android:layout_weight=".50"
+              android:scaleType="fitCenter"
+              android:src="@drawable/berechnen" />
 
-    <Button
-        android:id="@+id/buttone"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="Impressum" />
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".50" >
+
+        <ImageButton
+            android:id="@+id/buttonc"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".50"
+            
+            android:scaleType="fitCenter"
+            android:src="@drawable/pruefen" />
+
+        <ImageButton
+            android:id="@+id/buttond"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".50"
+            android:scaleType="fitCenter"
+            android:src="@drawable/impressum" />
+
+    </LinearLayout>
 
 </LinearLayout>
