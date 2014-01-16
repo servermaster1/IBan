@@ -6,8 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="14" 
-    />
+        android:targetSdkVersion="14" />
 
     <application
         android:allowBackup="true"
@@ -30,6 +29,10 @@
         <activity
             android:name="mike.uebl.iban.kontrolziffer_pruefen"
             android:label="Kontrollziffer Überprüfrüfen" >
+        </activity>
+        <activity
+            android:name="mike.uebl.iban._ibanerrechnen"
+            android:label="@string/title_activity__ibanerrechnen" >
         </activity>
     </application>
 
